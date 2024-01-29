@@ -1,0 +1,125 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.poststask"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\79ec4871c8a9fb9b3007ad6e349d4d72\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.poststask.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\79ec4871c8a9fb9b3007ad6e349d4d72\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\79ec4871c8a9fb9b3007ad6e349d4d72\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.poststask.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\79ec4871c8a9fb9b3007ad6e349d4d72\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\79ec4871c8a9fb9b3007ad6e349d4d72\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:6:5-31:19
+20        android:name="com.example.poststask.app.PostsApp"
+20-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:12:9-58
+21        android:allowBackup="true"
+21-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:7:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\79ec4871c8a9fb9b3007ad6e349d4d72\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:8:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:9:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:10:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:11:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.PostsTask" >
+32-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:15:9-47
+33        <activity
+33-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:17:9-30:20
+34            android:name="com.example.poststask.ui.MainActivity"
+34-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:18:13-65
+35            android:exported="true"
+35-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:19:13-36
+36            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+36-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:20:13-72
+37            <intent-filter>
+37-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:21:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:22:17-69
+38-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:24:17-77
+40-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42
+43            <meta-data
+43-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:27:13-29:36
+44                android:name="android.app.lib_name"
+44-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:28:17-52
+45                android:value="" />
+45-->C:\Users\GRAPHICS\Downloads\task\app\src\main\AndroidManifest.xml:29:17-33
+46        </activity>
+47
+48        <uses-library
+48-->[androidx.window:window:1.0.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\9cd2165cb82643cb4689b74b7999bed7\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+49            android:name="androidx.window.extensions"
+49-->[androidx.window:window:1.0.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\9cd2165cb82643cb4689b74b7999bed7\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\9cd2165cb82643cb4689b74b7999bed7\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+51        <uses-library
+51-->[androidx.window:window:1.0.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\9cd2165cb82643cb4689b74b7999bed7\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+52            android:name="androidx.window.sidecar"
+52-->[androidx.window:window:1.0.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\9cd2165cb82643cb4689b74b7999bed7\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\9cd2165cb82643cb4689b74b7999bed7\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\a2a31a90a50fc17671934bcf70310202\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\a2a31a90a50fc17671934bcf70310202\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+57            android:authorities="com.example.poststask.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\a2a31a90a50fc17671934bcf70310202\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\a2a31a90a50fc17671934bcf70310202\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\a2a31a90a50fc17671934bcf70310202\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\a2a31a90a50fc17671934bcf70310202\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\GRAPHICS\.gradle\caches\transforms-3\a2a31a90a50fc17671934bcf70310202\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\GRAPHICS\.gradle\caches\transforms-3\9644a8add00d27749bbedcda095f4d27\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\GRAPHICS\.gradle\caches\transforms-3\9644a8add00d27749bbedcda095f4d27\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\GRAPHICS\.gradle\caches\transforms-3\9644a8add00d27749bbedcda095f4d27\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+65        </provider>
+66
+67        <service
+67-->[androidx.room:room-runtime:2.4.3] C:\Users\GRAPHICS\.gradle\caches\transforms-3\c2427a3552586b179e93ae8cea11ef99\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+68            android:name="androidx.room.MultiInstanceInvalidationService"
+68-->[androidx.room:room-runtime:2.4.3] C:\Users\GRAPHICS\.gradle\caches\transforms-3\c2427a3552586b179e93ae8cea11ef99\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+69            android:directBootAware="true"
+69-->[androidx.room:room-runtime:2.4.3] C:\Users\GRAPHICS\.gradle\caches\transforms-3\c2427a3552586b179e93ae8cea11ef99\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+70            android:exported="false" />
+70-->[androidx.room:room-runtime:2.4.3] C:\Users\GRAPHICS\.gradle\caches\transforms-3\c2427a3552586b179e93ae8cea11ef99\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+71    </application>
+72
+73</manifest>
